@@ -1,0 +1,26 @@
+* CRIAR E EMBARALHAR UM BARALHO
+ -- usamos a classe baralho. 
+
+* EMPILHAR AS CARTAS EM UM MONTE
+ -- criamos uma pilha, com nome "monte"
+ -- percorremos o baralho (for, while) empilhando carta por carta no monte.
+
+* VIRAR UMA CARTA NA MESA
+ -- criamos outra pilha, com nome "mesa"
+ -- desempilhamos a primeira carta do monte e empilhamos na mesa.
+ 
+* PROCURAR, NO MONTE, UMA NOVA CARTA QUE SE ENCAIXE NA MESA
+    (REGRA DA PACIÊNCIA)
+  ** SE A CARTA NÃO SERVIR, DESCARTAR NO "MORTO"
+ -- criamos mais uma pilha, com nome "morto"
+ ___________________________________________
+ -- desempilhamos uma carta do monte        |
+ -- comparamos com a carta da mesa (if )    |
+    -- se servir, empilhamos na mesa        |
+    -- senão, empilhamos no morto           |
+ __________________________________________ v
+Repetir até: chegar ao ás, ou até esvaziar o monte. Caso esvazie o monte, "viramos" 
+o morto no monte (desempilhamos cada uma do morto e empilhamos de volta no monte)
+
+
+* OBJETIVO: CHEGAR AO ÁS

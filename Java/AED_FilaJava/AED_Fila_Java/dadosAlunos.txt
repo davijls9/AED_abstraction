@@ -1,0 +1,6 @@
+Maria Antonia;443829;95.4
+Jorge Jose;443210;77.9
+Carla Patricia;476655;91.9
+Pedro Francisco;419900;67.6
+Amanda Natalia;477776;93.1
+Artur Geraldo;489916;70.0 
